@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Organisasi Pers</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Logo Organisasi Pers</div>
+        <ul class="nav-links">
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#berita">Berita</a></li>
+            <li><a href="#galeri">Galeri</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Website Organisasi Pers</h1>
+            <p>Media dokumentasi seluruh kegiatan organisasi yang menyajikan berita, informasi, dan karya jurnalistik secara profesional.</p>
+            <a href="#berita" class="btn">Lihat Berita</a>
+            <a href="#galeri" class="btn">Dokumentasi Kegiatan</a>
+        </div>
+    </header>
+
+    <section id="berita" class="news-section">
+        <h2>Berita Terbaru</h2>
+        <div class="news-cards">
+            <!-- Card Berita -->
+            <div class="news-card">
+                <img src="image1.jpg" alt="Berita 1">
+                <h3>Judul Berita 1</h3>
+                <p>Tanggal: 01 Januari 2023 | Penulis: Nama Penulis</p>
+                <p>Ringkasan berita 1...</p>
+                <a href="#" class="btn">Baca Selengkapnya</a>
+            </div>
+            <!-- Tambahkan lebih banyak card di sini -->
+        </div>
+    </section>
+
+    <section id="galeri" class="gallery-section">
+        <h2>Galeri Dokumentasi</h2>
+        <div class="gallery-grid">
+            <!-- Grid Foto -->
+            <img src="galeri1.jpg" alt="Dokumentasi 1" onclick="openLightbox();">
+            <!-- Tambahkan lebih banyak gambar di sini -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2023 Organisasi Pers. Semua hak dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
